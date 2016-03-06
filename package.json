@@ -1,0 +1,29 @@
+{
+  "name": "ds-tutorial-react",
+  "version": "0.1.0",
+  "description": "Files for the deepstream react tutorial",
+  "main": "src/deepstream-react.js",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "deepstream.io-client-js": "latest",
+    "deepstream.io-tools-react": "latest",
+    "deepstream.io": "latest",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "reactify": "^1.1.1",
+    "watchify": "^3.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepstreamIO/ds-tutorial-react.git"
+  },
+  "scripts": {
+    "start-server": "node server/start.js",
+    "build-input": "watchify ./synced-input/src/main.jsx -t reactify -o ./synced-input/dist/main.js",
+    "build-todo": "watchify ./todo-list/src/main.jsx -t reactify -o ./todo-list/dist/main.js"
+  },
+  "author": "Wolfram Hempel<wolfram.hempel@deepstreamhub.com>",
+  "license": "MIT"
+}

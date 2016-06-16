@@ -9,15 +9,24 @@ npm install
 
 to start the deepstrean server, run
 ```
-npm run-script start-server
+npm run start-server
 ```
+
+Now you can open both examples in your browser
+```
+open todo-list/index.html
+open synced-input/index.html
+```
+
+
+###### Watch mode
 
 to watch/compile the simple input example, run
 ```
-npm run-script build-input
+npm run build-input
 ```
 
 to watch/compile the todo-list example, run
 ```
-npm run-script build-todo
+npm run build-todo
 ```

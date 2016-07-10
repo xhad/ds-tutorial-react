@@ -20,7 +20,7 @@
     "url": "https://github.com/deepstreamIO/ds-tutorial-react.git"
   },
   "scripts": {
-    "start-server": "node server/start.js",
+    "start-server": "deepstream start -c ./node_modules/deepstream.io/conf/config.yml",
     "build-input": "watchify ./synced-input/src/main.jsx -t reactify -o ./synced-input/dist/main.js",
     "build-todo": "watchify ./todo-list/src/main.jsx -t reactify -o ./todo-list/dist/main.js"
   },

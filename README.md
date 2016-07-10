@@ -1,6 +1,6 @@
 # ds-tutorial-react
 Examples of how to use **deepstream-react**. Please find more details
-at https://deepstream.io/tutorials/deepstream-react.html
+at https://deepstream.io/tutorials/integrations/frontend-react/
 
 To install, use
 ```

@@ -24,6 +24,6 @@
     "build-input": "watchify ./synced-input/src/main.jsx -t reactify -o ./synced-input/dist/main.js",
     "build-todo": "watchify ./todo-list/src/main.jsx -t reactify -o ./todo-list/dist/main.js"
   },
-  "author": "Wolfram Hempel<wolfram.hempel@deepstreamhub.com>",
+  "author": "deepstreamHub GmbH",
   "license": "MIT"
 }

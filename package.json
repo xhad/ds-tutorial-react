@@ -5,7 +5,7 @@
   "main": "src/deepstream-react.js",
   "dependencies": {
     "babel-preset-react": "^6.5.0",
-    "babelify": "^7.2.0",
+    "babelify": "^8.0.0",
     "browserify": "^13.0.0",
     "deepstream.io-client-js": "latest",
     "deepstream.io-tools-react": "latest",
@@ -13,7 +13,7 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "reactify": "^1.1.1",
-    "watchify": "^3.7.0"
+    "watchify": "^4.0.0"
   },
   "repository": {
     "type": "git",
